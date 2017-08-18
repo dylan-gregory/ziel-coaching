@@ -1,0 +1,39 @@
+
+/*@import '../node_modules/flexboxgrid/css/flexboxgrid.min.css';*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/*.row{
+  display: flex;
+  flex-direction: row;
+}*/
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navlink{
+  list-style: none;
+  margin-right: 30px;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+}
