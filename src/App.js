@@ -13,12 +13,12 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="container">
+        <div className="main-container">
           <div className="">
             <ul className="navbar">
               <li className="navlink"><Link className="link" to="/">Home</Link></li>
               <li className="navlink"><Link className="link" to="/about">About</Link></li>
-              <li className="navlink"><Link className="link" to="/programs">Programs</Link></li>
+              <li className="navlink"><Link className="link" to="/programs">Contact</Link></li>
             </ul>
           </div>
 
@@ -26,6 +26,10 @@ class App extends Component {
           <Route exact path="/" component={Home}/>
           <Route path="/about" component={About}/>
           <Route path="/programs" component={Programs}/>
+
+          <div className="footer">
+
+          </div>
         </div>
       </BrowserRouter>
     );
