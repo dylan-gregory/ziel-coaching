@@ -15,8 +15,26 @@ img {
 }
 
 body{
+  font-family: 'Quicksand';
   margin: 0px;
   padding: 0px;
+}
+
+button{
+  font-family: 'Quicksand';
+  background-color: #FF404F;
+  padding: 15px 42px 15px 45px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid #A32933;
+  border-right: 3px solid #A32933;
+  border-bottom: 4px solid #A32933;
+}
+
+button:hover{
+  background-color: #FF626F;
+  transition-duration: .4s;
 }
 
 .main-container{
@@ -28,7 +46,7 @@ body{
 }
 
 .home-container{
-  background-color: #C4886A;
+  background-color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -169,7 +187,7 @@ Xanadu: #76A078*/
 .word{
   font-size: 50px;
   font-weight: bold;
-  color: #C9564C;
+  color: #FF404F;
 }
 
 .zeel{
@@ -178,8 +196,11 @@ Xanadu: #76A078*/
 
 .what-vision{
   font-family: 'Quicksand';
-  font-size: 20px;
-  margin-left: 80px;
+  font-size: 23px;
+  margin: 20px 20px 20px 80px;
+  border-left: 2px solid black;
+  padding: 50px;
+  line-height: 38px;
 }
 
 .offer{
@@ -188,11 +209,15 @@ Xanadu: #76A078*/
 
 .program{
   width: 33%;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 50px 20px;
+  justify-content: space-between;
+  min-height: 650px;
 }
 
 .program-header{
@@ -200,6 +225,39 @@ Xanadu: #76A078*/
   font-size: 35px;
 }
 
+.fa{
+  font-size: 140px;
+  /*border: 2px solid black;
+  border-radius: 190px;
+  padding: 40px 60px 50px 60px;*/
+}
+
+.fa-angle-double-right{
+  padding: 30px 40px;
+}
+
+/*.break-icons{
+  display: block;
+}*/
+
+.fa-angle-left, .fa-angle-right{
+  font-size: 140px;
+  /*padding: 30px;*/
+}
+
+/*.fa-angle-left{
+  margin-bottom: 20px;
+}*/
+
+.fa-angle-right{
+  margin-top: 20px;
+}
+
+
+
+.fa-angle-up{
+ font-size: 140px;
+}
 
 
 

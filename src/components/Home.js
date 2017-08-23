@@ -5,6 +5,7 @@ class Home extends Component {
     return (
       <div className="container">
 
+
         <div className="image-container">
 
           <span className="ziel">Ziel Coaching</span>
@@ -52,21 +53,30 @@ class Home extends Component {
             <div className="program-header">
               Personal Vision Breakthrough
             </div>
-            The first step on your journey.
+            <div className="break-icons">
+              <i className="fa fa-angle-left" aria-hidden="true"></i>
+              <i className="fa fa-angle-right" aria-hidden="true"></i>
+            </div>
+            The first step on your journey towards discovering yourself and your vision.
+            <button>Learn more</button>
           </div>
 
           <div className="program">
             <div className="program-header">
               Upward Vision Transformation
             </div>
+            <i className="fa fa-angle-up" aria-hidden="true"></i>
             Taking the plunge into discovering your vision with accountability to get you there.
+            <button>Learn more</button>
           </div>
 
           <div className="program">
             <div className="program-header">
               Envision Journey
             </div>
-            Support, encouragement, and accountability in a group setting.
+            <i className="fa fa-angle-double-right" aria-hidden="true"></i>
+            Support, encouragement, and accountability in a trustful group setting.
+            <button>Learn more</button>
           </div>
 
         </div>
