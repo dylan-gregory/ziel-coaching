@@ -259,6 +259,27 @@ Xanadu: #76A078*/
  font-size: 140px;
 }
 
+.about-z{
+  font-size: 23px;
+}
+
+.about-p{
+  margin-top: 100px;
+  line-height: 38px;
+}
+
+.dream{
+  font-family: 'Abril Fatface';
+  position: relative;
+  top: 50px;
+  font-size: 90px;
+  font-style: italic;
+  color: #FF404F;
+  border-left: 3px solid black;
+  margin-bottom: 50px;
+  padding: 25px 0px 25px 50px;
+}
+
 
 
 .footer{
