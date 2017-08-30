@@ -6,7 +6,12 @@ class About extends Component {
       <div className="container">
         <div className="about-z">
 
-          <div className="dream">Have you ever had a dream and lost it?</div>
+          <div className="girl-sand">
+
+            <span className="dream">Have you ever had a dream and lost it?</span>
+
+          </div>
+
 
           <div className="about-p">
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Maybe because of outside circumstances, or maybe because of your own sense of doubt it couldn't be achieved. Maybe you're an entrepreneur with incredible business ideas, but something is holding you back from turning those ideas into reality. Maybe you're simply stuck, whether creatively, in your career, or in your general life, and you want to discover what really motivates you to thrive.
@@ -22,8 +27,8 @@ class About extends Component {
           <div>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;If you're tired of being stuck in a life you never pictured for yourself, I encourage you to find out what Ziel Coaching is all about. Click the link below to sign up for your 45-minute Personal Vision Breakthrough Session and see where Ziel can take you.
           </div>
-          Now is your time,
 
+          <div className="now">Now is your time,</div>
 
           <div>Bridget Vogel Gregory</div>
           Owner and Coach

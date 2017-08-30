@@ -11,7 +11,7 @@ class Home extends Component {
           <span className="ziel">Ziel Coaching</span>
           <span className="coaching"></span>
 
-          <span className="time"><span className="now">now</span> is your time</span>
+          <span className="time"><span>now</span> is your time</span>
         </div>
 
         <div>
