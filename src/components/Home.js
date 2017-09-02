@@ -8,8 +8,10 @@ class Home extends Component {
 
         <div className="image-container">
 
-          <span className="ziel">Ziel Coaching</span>
-          <span className="coaching"></span>
+          <div className="title-container">
+            <span className="z"><img src={require('../images/white-Z.png')}/></span>
+            <span className="ziel">iel Coaching</span>
+          </div>
 
           <span className="time"><span>now</span> is your time</span>
         </div>

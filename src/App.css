@@ -91,17 +91,36 @@ button:hover{
   z-index: 20;
 }
 
+.z{
+  position: relative;
+  z-index: 50;
+
+}
+
+.z > img{
+  max-height: 150px;
+
+}
+
+.title-container{
+  position: relative;
+  top: -220px;
+  align-items: center;
+  justify-content: center;
+}
+
 .ziel{
   position: relative;
-  top: 10%;
+  /*top: 10%;*/
   font-family: 'Abril Fatface';
   /*font-weight: bold;*/
-  font-size: 150px;
+  font-size: 120px;
   color: white;
   z-index: 9115;
-  margin-top: -575px;
-  margin-bottom: 15px;
+  /*margin-top: -575px;
+  padding-bottom: 35px;*/
 }
+
 
 /*.coaching{
   position: relative;
@@ -117,6 +136,7 @@ button:hover{
 
 .time{
   position: relative;
+  top: -270px;
   font-family: 'Meddon';
   /*font-weight: bold;*/
   font-size: 50px;
@@ -264,13 +284,27 @@ Xanadu: #76A078*/
  font-size: 140px;
 }
 
+/*****************ABOUT*****************/
+
+
 .about-z{
   font-size: 23px;
 }
 
 .about-p{
-  margin-top: 100px;
+  margin-top: 50px;
   line-height: 38px;
+}
+
+.that-ziel{
+  font-family: 'Abril Fatface';
+  font-size: 60px;
+  line-height: 70px;
+  font-style: italic;
+  color: #FF4057;
+  padding: 45px;
+  border-left: 3px solid black;
+  margin: 30px 0px;
 }
 
 .dream{
@@ -307,10 +341,23 @@ Xanadu: #76A078*/
 }
 
 
-
+/*****************FOOTER*****************/
 
 
 .footer{
   height: 200px;
+  font-size: 25px;
   background-color: grey;
+  padding: 50px 80px;
+}
+
+.social{
+  font-size: 40px;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
+.social:hover{
+  color: #157A6E;
+  transition-duration: .4s;
 }

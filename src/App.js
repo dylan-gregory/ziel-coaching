@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -20,9 +21,7 @@ class App extends Component {
           <Route path="/about" component={About}/>
           <Route path="/contact" component={Contact}/>
 
-          <div className="footer">
-
-          </div>
+          <Footer />
         </div>
       </BrowserRouter>
     );

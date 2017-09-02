@@ -16,6 +16,11 @@ class About extends Component {
           <div className="about-p">
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Maybe because of outside circumstances, or maybe because of your own sense of doubt it couldn't be achieved. Maybe you're an entrepreneur with incredible business ideas, but something is holding you back from turning those ideas into reality. Maybe you're simply stuck, whether creatively, in your career, or in your general life, and you want to discover what really motivates you to thrive.
 
+            <div className="that-ziel">
+              the things that make us tick,
+              that spur us toward adventure
+              ...THAT is Ziel
+            </div>
           <div>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;If you identify with any of these things, I've been in your shoes. Apart from very kind people giving me a pat on the back and saying "you can do it," I've personally been hard pressed to find the strength within myself to see a vision for my life and then make it happen. I believe too many of us today aren't living our best, most fulfilling life. I don't want that for myself and I certainly don't want that for you.
             This is why I developed Ziel Coaching. Our heart and soul, the things that make us tick, that spur us toward adventure, that get us excited when we talk about them, that is Ziel. My vision is to come alongside you as you discover those deep rooted desires, coach you through what may be stopping or slowing you down from achieving them, and cheer you on into a bright, productive and expressive future.
