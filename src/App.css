@@ -291,15 +291,23 @@ Xanadu: #76A078*/
   font-size: 23px;
 }
 
+/************Add a media query to take the two column count out after like tablet width************/
+
 .about-p{
   margin-top: 50px;
   line-height: 38px;
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+  -moz-column-gap: 3em;
+  -webkit-column-gap: 3em;
+  column-gap: 3em;
 }
 
 .that-ziel{
   font-family: 'Abril Fatface';
-  font-size: 60px;
-  line-height: 70px;
+  font-size: 50px;
+  line-height: 60px;
   font-style: italic;
   color: #FF4057;
   padding: 45px;
@@ -338,6 +346,17 @@ Xanadu: #76A078*/
   -moz-background-size: cover;
   background-size: cover;
   height: 600px;
+}
+
+.bridget{
+  font-size: 27px;
+  font-style: italic;
+  color: #FF4057;
+  /*157A6E*/
+}
+
+.owner{
+  color: #157A6E;
 }
 
 
