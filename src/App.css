@@ -46,7 +46,7 @@ button:hover{
 }
 
 .active{
-  background-color: #FF404F;
+  background-color: #157A6E;
 }
 
 .home-container{
@@ -127,8 +127,9 @@ button:hover{
 /*Colors
 Bone: #DDD8C4
 Wood brown: #C4886A
-pink: #FF404F
+pink: #FF4057
 seafoam: #7EC68B
+teal: #157A6E
 Xanadu: #76A078*/
 
 
@@ -168,7 +169,7 @@ Xanadu: #76A078*/
 }
 
 .link:hover{
-  background-color: #FFB9BF;
+  background-color: #6AAAA2;
   transition-duration: .5s;
 }
 
@@ -191,7 +192,7 @@ Xanadu: #76A078*/
 .word{
   font-size: 50px;
   font-weight: bold;
-  color: #FF404F;
+  color: #FF4057;
 }
 
 .zeel{
@@ -278,7 +279,7 @@ Xanadu: #76A078*/
   top: -20px;
   font-size: 70px;
   font-style: italic;
-  color: #FF404F;
+  color: #FF4057;
   /*max-width:*/
   /*border-left: 3px solid black;*/
   /*margin-left: 150px;*/
