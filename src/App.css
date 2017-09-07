@@ -250,39 +250,11 @@ Xanadu: #76A078*/
   font-size: 35px;
 }
 
-.fa{
-  font-size: 140px;
-  /*border: 2px solid black;
-  border-radius: 190px;
-  padding: 40px 60px 50px 60px;*/
-}
+.prog-icons{
 
-.fa-angle-double-right{
-  padding: 30px 40px;
-}
-
-/*.break-icons{
-  display: block;
-}*/
-
-.fa-angle-left, .fa-angle-right{
-  font-size: 140px;
-  /*padding: 30px;*/
-}
-
-/*.fa-angle-left{
-  margin-bottom: 20px;
-}*/
-
-.fa-angle-right{
-  margin-top: 20px;
 }
 
 
-
-.fa-angle-up{
- font-size: 140px;
-}
 
 /*****************ABOUT*****************/
 
