@@ -22,6 +22,13 @@ class Home extends Component {
               What is Ziel Coaching?
             </div>
             <span className="meaning"><span className="word">Ziel</span> (<span className="dutch">n. Dutch <span className="zeel">\zeel\</span></span>) - soul, mind, heart</span>
+            <div className="what-vision what-coach">
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ziel Coaching is the catalyst you’ve been looking for to create vision for your life and discover your heart and soul dreams. Through our unique programs, you’ll learn how to eliminate habits that have once led to discouragement and create habits that propel you into your best, most fulfilling life. Now is your time.
+
+              <a href="/about" className="learn-more"><button>Learn More</button></a>
+
+            </div>
+
           </div>
 
 
@@ -54,7 +61,7 @@ class Home extends Component {
               <img className="prog-icons" src={require('../images/ziel-pvb.png')} />
             </div>
             The first step on your journey towards discovering yourself and your vision.
-            <button>Learn more</button>
+            <a ><button>Learn more</button></a>
           </div>
 
           <div className="program">
